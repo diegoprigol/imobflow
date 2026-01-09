@@ -17,7 +17,7 @@ import {
   Landmark
 } from 'lucide-react';
 import { MOCK_TASKS, MOCK_DEBTS, MOCK_CASES, MOCK_USERS } from './constants';
-import { Dashboard } from './components/Dashboard';
+import { Dashboard } from './Dashboard';
 import { AdminModule, CollectionsModule, LegalModule, FinancialModule, UsersModule, AIChatBot, ProfileSettingsModal } from './components/Modules';
 import { TaskStatus, Sector, User, LegalCase, Debt, Task } from './types';
 
