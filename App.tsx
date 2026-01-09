@@ -21,6 +21,11 @@ import { Dashboard } from './Dashboard';
 import { AdminModule, CollectionsModule, LegalModule, FinancialModule, UsersModule, AIChatBot, ProfileSettingsModal } from './components/Modules';
 import { TaskStatus, Sector, User, LegalCase, Debt, Task } from './types';
 
+git add .
+git commit -m "Fix Dashboard import path"
+git push
+
+
 function App() {
   const [currentView, setCurrentView] = useState<'dashboard' | 'admin' | 'juridico' | 'cobrancas' | 'financeiro' | 'users'>('dashboard');
   const [allUsers, setAllUsers] = useState<User[]>(MOCK_USERS);
