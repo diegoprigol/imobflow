@@ -21,9 +21,6 @@ import { Dashboard } from './Dashboard';
 import { AdminModule, CollectionsModule, LegalModule, FinancialModule, UsersModule, AIChatBot, ProfileSettingsModal } from './components/Modules';
 import { TaskStatus, Sector, User, LegalCase, Debt, Task } from './types';
 
-git add .
-git commit -m "Fix Dashboard import path"
-git push
 
 
 function App() {
